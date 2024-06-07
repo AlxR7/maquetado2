@@ -1,0 +1,883 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+h3 {
+    font-family: 'Nunito';
+}
+
+h2 {
+    font-family: 'Raleway';
+}
+
+h1 {
+    font-family: 'Montserrat Alternates';
+    margin: 0px;
+}
+
+p {
+    font-family: 'Open Sans';
+    margin: 0px;
+}
+
+li {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: rgb(232, 215, 215);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+.logoheader {
+    height: auto;
+    width: 16%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn0101 {
+    height: auto;
+    width: 16%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 2%;
+    transition: background-color 0.4s;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn0101:hover {
+    background-color: rgb(199, 102, 12);
+}
+
+
+.contenedor-header {
+    background-color: rgb(232, 215, 215);
+    border-bottom: 6px solid black;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contenedor-header img {
+    height: 150px;
+    width: 100%;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btns-header li {
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+
+}
+
+.btn-principalheader {
+    height: 40px;
+    width: 16%;
+    border-radius: 20px;
+    background-color: black;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    transition: background-color 0.4s;
+    cursor: pointer;
+}
+
+.btn-principalheader:hover {
+    background-color: rgb(199, 102, 12);
+}
+
+header a {
+    color: black;
+    font-size: x-large;
+}
+
+.btn-principalheader a {
+    color: bisque;
+}
+
+/* Aplicando estilos para Main */
+
+main {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    margin-top: 10%;
+}
+
+main .supercontenedor {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.minicontenedor01 {
+    width: 100%;
+    height: 100%;
+}
+
+
+.minicontenedor02 {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.minicontenedor03 h1 {
+    color: rgb(3, 47, 97);
+}
+
+.minicontenedor03 .fa-display {
+    color: rgb(3, 47, 97);
+}
+
+.minicontenedor03 .fa-square-pen {
+    color: rgb(3, 47, 97);
+}
+
+.minicontenedor04 h1 {
+    color: rgb(4, 32, 65);
+}
+
+.minicontenedor04 {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.minicontenedor05 {
+    width: 100%;
+    margin-top: 3%;
+    border-top: 4px  solid rgb(97, 94, 94);
+    box-shadow: 5px -10px 25px 0 rgb(66, 66, 66);
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.minicontenedor0501 {
+    margin: 5%;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.minicontenedor0501 p {
+    margin: 2%;
+}
+
+.minicontenedor0502 {
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.minicontenedor03 {
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    margin-top: 3%;
+    border-bottom: 3px solid rgb(119, 118, 118);
+    box-shadow: 5px -10px 25px 0 rgb(85, 83, 83);
+}
+
+.btnmain0101 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0%;
+    padding: 1%;
+}
+
+.btnmain0101 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0%;
+}
+
+.btnsmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+
+main .minicontenedor01 {
+    width: 100%;
+}
+
+.titulo01 {
+    font-size: 250%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.titulo03 {
+    display: flex;
+    margin-top: 35px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.titulo04 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.titulo05 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+
+.texto04 {
+    font-size: 200%;
+    color: gray;
+}
+
+.texto05 {
+    font-size: 200%;
+    color: gray;
+}
+
+
+.texto02 {
+    font-size: 200%;
+    color: gray;
+}
+
+.texto03 {
+    font-size: 200%;
+    color: gray;
+}
+
+.texto01 {
+    font-size: 200%;
+    color: gray;
+    margin-bottom: 35px;
+}
+
+.btnsmain a{
+    font-size: x-large;
+    color: bisque;
+    cursor: pointer;
+}
+
+
+.btnmain0101 {
+    width: 30%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    border-radius: 18px;
+    margin: 0px;
+    margin-bottom: 35px;
+    transition: background-color 0.5s;
+}
+
+.btnmain0101:hover {
+    background-color: rgb(199, 102, 12);
+}
+
+.btns02 i{
+    color: white;
+
+}
+
+.btn02 a {
+    color: white;
+}
+
+.btns02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btns03 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btns04 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btns05 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn02 {
+    width: 20%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 55px;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.btn02:hover {
+    background-color: rgb(199, 102, 12);
+}
+
+
+
+.btn03 {
+    width: 20%;
+    background-color: rgb(219, 152, 8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    color: aliceblue;
+    transition: background-color 0.5s;
+    margin-top: 25px;
+}
+
+.btn03:hover:hover {
+    background-color: rgb(199, 102, 12);
+}
+
+
+.btn04 {
+    width: 20%;
+    background-color: rgb(255, 188, 4);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 25px;
+    color: white;
+    margin-bottom: 40px;
+    transition: background-color 0.5s;
+}
+
+.btn04enlace {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(252, 187, 11);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 25px;
+    color: white;
+    margin-bottom: 40px;
+    transition: background-color 0.5s;
+}
+
+.btn05 {
+    width: 60%;
+    background-color: rgb(219, 152, 8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 25px;
+    color: white;
+    margin-bottom: 40px;
+    transition: background-color 0.5s;
+}
+
+.btn05 a {
+    color: white;
+}
+
+.btn04enlace a{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn04:hover {
+    background-color: rgb(199, 102, 12);
+}
+
+.btn04enlace:hover {
+    background-color: rgb(199, 102, 12);
+}
+
+
+
+.btn04 a {
+    color: white;
+}
+
+.btn03 a {
+    color: aliceblue;
+}
+
+.btn02 .fa-house {
+    margin-right: 4%;
+}
+
+.btn03 .fa-house {
+    margin-right: 4%;
+}
+
+.btn04 .fa-house {
+    margin-right: 3%;
+}
+
+.btn05 .fa-house {
+    margin-right: 3%;
+}
+
+.btn05:hover {
+    background-color: rgb(199, 102, 12);
+}
+
+.galeria01 img {
+    width: 100%;
+    height: 100%;
+}
+
+.galeria02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.galeria03 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.galeria04 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btns05 {
+    cursor: pointer;
+}
+
+.galeria05 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.minicuadro02 {
+    height: auto;
+    margin: 25px;
+    border-radius: 5%;
+    width: 35%;
+    box-shadow: 0px 10px 40px 0px rgb(153, 145, 145);
+    transition: transform 0.5s ease;
+}
+
+.minicuadro02 p {
+    margin-bottom: 20px;
+}
+
+.minicuadro02 img {
+    margin-bottom: 40px;
+    height: auto;
+    width: 75%;
+    border: 2px solid rgb(49, 46, 46);
+    border-radius: 5%;
+}
+
+.contenido02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.contenido02 .fa-unity {
+    font-size: 55px;
+    margin-right: 2%;
+}
+
+.fa-display {
+    font-size: 55px;
+    margin-right: 2%;
+}
+
+main .fa-brush {
+    margin-right: 15px;
+}
+
+main .fa-robot {
+    margin-right: 2%;
+}
+
+#iconalt {
+    margin-left: 2%;
+}
+
+.fa-square-pen {
+    font-size: 55px;
+}
+
+header .fa-unity {
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+header .fa-palette {
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+header .fa-robot {
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+header .fa-brain {
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+
+.minicuadro02 .fa-unity {
+    font-size: 35px;
+    margin-right: 2.5%;
+}
+
+.minicuadro02:hover img {
+    transform: scale(1.1);
+}
+
+.minicuadro03 {
+    background-color: white;
+    margin: 25px;
+    border: 1px solid rgb(39, 37, 37);
+    border-radius: 5%;
+    width: 18%;
+    box-shadow: 8px 8px 20px 5px rgb(85, 83, 83);
+    transition: transform 0.5s ease;
+}
+
+.minicuadro03dash {
+    background-color: white;
+    margin: 25px;
+    border: 1px solid rgb(39, 37, 37);
+    border-radius: 5%;
+    width: 18%;
+    box-shadow: 8px 8px 20px 5px rgb(85, 83, 83);
+    transition: transform 0.5s ease;
+}
+
+
+.minicuadro03dash img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.minicuadro05 p {
+    color: rgb(107, 104, 104);
+    margin-right: 25%;
+    font-size: larger;
+}
+
+.minicuadro05 h2 {
+    color: white;
+    margin-right: 35%;
+    font-size: xx-large;
+}
+
+.minicuadro03 img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+
+.minicuadro04 {
+    margin: 25px;
+    border-radius: 5%;
+    width: 27%;
+    border: 3px dashed rgb(6, 128, 128);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+
+.minicuadro03 .fa-square-pen {
+    font-size: large;
+}
+
+.minicuadro03dash .fa-square-pen {
+    font-size: large;
+}
+
+.minicuadro03 h3 {
+    color: rgb(3, 47, 97);
+    font-size: 25px;
+}
+
+.minicuadro03dash h3 {
+    color: rgb(3, 47, 97);
+    font-size: 25px;
+}
+
+.minicuadro03 .fa-display {
+    color: rgb(3, 47, 97);
+    font-size: large;
+}
+
+.minicuadro03dash .fa-display {
+    color: rgb(3, 47, 97);
+    font-size: large;
+}
+
+.minicuadro03:hover {
+    transform: scale(1.1);
+}
+
+.minicuadro03dash:hover {
+    transform: scale(1.1);
+}
+
+.minicuadro04:hover img {
+    transform: scale(1.1);
+    border: 15px solid  rgb(105, 69, 2);
+}
+
+.minicuadro04 img {
+    width: 75%;
+    border-radius: 100%;
+    border: 12px solid orange;
+
+}
+
+.minicuadro05 {
+    width: 30%;
+    margin-top: 3%;
+}
+
+
+.minicuadro05 img {
+    width: 10%;
+    border-radius: 5%;
+}
+
+.minicuadro04 h3 {
+    color:  rgb(236, 241, 245);
+    font-size: 30px;
+}
+
+.minicuadro0501 {
+    transition: transform 0.5s ease-in-out;
+}
+
+.minicuadro0501:hover {
+    transform: scale(1.1);
+}
+
+.minicuadro0502  {
+    transition: transform 0.5s ease-in-out;
+}
+
+.minicuadro0502:hover {
+    transform: scale(1.1);
+}
+
+.minicuadro0503 {
+    transition: transform 0.5s ease-in-out;
+}
+
+.minicuadro0503:hover {
+    transform: scale(1.1);
+}
+
+.minicuadro0504 {
+    transition: transform 0.5s ease-in-out;
+}
+
+.minicuadro0504:hover {
+    transform: scale(1.1);
+}
+
+/* Aplicando estilos para Footer */
+
+.contenedor-footer {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(228, 135, 73);
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+}
+
+
+.contenedor-footer h1 {
+    margin: 0%;
+    padding-top: 3%;
+}
+
+.contenedor-footer {
+    padding-bottom: 3%;
+}
+
+.socialmedias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.socialmedias .fa-facebook {
+    margin-right: 20%;
+    font-size: x-large;
+    transition: transform 0.4s ease;
+}
+
+.socialmedias .fa-linkedin {
+    margin-right: 20%;
+    font-size: x-large;
+    transition: transform 0.4s ease;
+}
+
+.socialmedias .fa-youtube {
+    margin-right: 20%;
+    font-size: x-large;
+    transition: transform 0.4s ease;
+}
+
+.socialmedias .fa-instagram {
+    margin-right: 20%;
+    font-size: x-large;
+    transition: transform 0.4s ease;
+}
+
+.socialmedias a {
+    margin-right: 20%;
+    font-size: x-large;
+    color: black;
+}
+
+.fa-facebook:hover {
+    transform: scale(1.5);
+}
+
+.fa-linkedin:hover {
+    transform: scale(1.5);
+}
+
+.fa-youtube:hover {
+    transform: scale(1.5);
+}
+
+.fa-instagram:hover {
+    transform: scale(1.5);
+}
+
+
